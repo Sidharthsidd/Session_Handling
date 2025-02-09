@@ -3,4 +3,3 @@ flask-cors
 gunicorn
 pymongo
 firebase-admin
-threading
