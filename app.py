@@ -7,7 +7,7 @@ from datetime import datetime
 import threading
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("foodapp-aa753-firebase-adminsdk-ey3ee-77962ef353.json")
+cred = credentials.Certificate("file.json")
 firebase_admin.initialize_app(cred)
 
 # MongoDB Atlas connection setup
